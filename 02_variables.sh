@@ -1,2 +1,3 @@
 #!/bin/bash
-a=
+USER_NAME="Sam"
+echo "Hello $USER_NAME"
