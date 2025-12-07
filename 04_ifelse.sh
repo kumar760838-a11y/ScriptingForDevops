@@ -1,8 +1,15 @@
 #!/bin/bash
+
 NUMBER=$1
-if [ $NUMBER -lt 18 ]
+
+# -gt --> greater than
+# -lt --> less than
+# -eq --> equal
+# -ne --> not equal
+
+if [ $NUMBER -lt 10 ]
 then
-echo "your age is invalid"
+    echo "Given number $NUMBER is less than 10"
 else
-echo "your age is valid"
+    echo "Given number $NUMBER is not less than 10"
 fi
